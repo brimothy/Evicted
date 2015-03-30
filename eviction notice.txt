@@ -1,0 +1,35 @@
+Thread.sleep(1000);
+				System.out.println("");
+				System.out.println("It reads: ");
+				Thread.sleep(1000);
+				System.out.println("");
+				System.out.println("Eviction Notice");
+				Thread.sleep(1000);
+				System.out.println("");
+				System.out.println("Ms. Scriven, ");
+				Thread.sleep(1000);
+				System.out.println("");
+				System.out.println("We regret to inform you that you have violated " +
+				"the terms of your residence here and thus have exactly one week " +
+				"to remove yourselves from the premises or an agent will arrive to carry out " +
+				"your termination.");
+				Thread.sleep(4000);
+				System.out.println("");
+				System.out.println("The circumstances of your breech of contract are such: ");
+				Thread.sleep(1000);
+				System.out.println("");
+				System.out.println("Your relationship with Ms. Simmons violates our community's dedication to humanity's future prosperity. " +
+				"Such a relationship contributes nothing to our community's health and " +
+				"in fact robs it of its viability.");
+				Thread.sleep(4000);
+				System.out.println("");
+				System.out.println("This discretion is made worse by your refuse to accept " +
+				"the more healthy and productive relationship with Mr.Harrison prescribed to you by this council");
+				Thread.sleep(2000);
+				System.out.println("");
+				System.out.println("Your participation in this community has been, overall, a failure " +
+				"and thus we must insist upon your departure.");
+				Thread.sleep(1000);
+				System.out.println("");
+				System.out.println("Yours,");
+				System.out.println("The council.");
