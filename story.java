@@ -17,7 +17,7 @@ public class story{
 		roomTwo roomtwo = new roomTwo();
 		roomfour = new roomFour();
 		Stairwell stairwell = new Stairwell();
-		stairwell.setroomFour(roomfour);
+		//stairwell.setroomFour(roomfour);
 		//roomfour.setSound(sound);
 		//roomtwo.setKey(key);
 		rooms.add(new roomOne());
@@ -28,9 +28,9 @@ public class story{
 		rooms.add(new roomSix());
 		rooms.add(stairwell);
 	}
-	public void stopSound(){
-		roomfour.stopSound();
-	}
+	//public void stopSound(){
+		//roomfour.stopSound();
+	//}
 	public void firstnarration()throws InterruptedException{
 		rooms.get(0).narration(in);
 	}
