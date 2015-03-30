@@ -19,9 +19,9 @@ public class roomFour implements Room{
 		options.add("b");
 		options.add("c");
 	}
-	public void stopSound(){
-		sound.Stop();
-	}
+	//public void stopSound(){
+		//sound.Stop();
+	//}
 	public void narration(BufferedReader in)throws InterruptedException{
 		System.out.println("This room is small. There is a note " +
 		"on the dresser and a tape labelled 'to Val love Joy' next to a " +
