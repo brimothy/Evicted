@@ -8,18 +8,18 @@ public class Stairwell implements Room{
 	Scanner input = new Scanner(System.in);
 	String name;
 	ArrayList<String> options = new ArrayList<String>(4);
-	roomFour roomfour = new roomFour();
+	//roomFour roomfour = new roomFour();
 	//PlaySound sound = new PlaySound("no children.wav");
 	
 	public Stairwell(){
-		name = "Staircase";
+		name = "Room Seven";
 		options.add("a:");
 		options.add("b:");
 		options.add("c:");
 	}
-	public void setroomFour(roomFour roomfour){
-		this.roomfour = roomfour;
-	}
+	//public void setroomFour(roomFour roomfour){
+		//this.roomfour = roomfour;
+	//}
 	public void narration(BufferedReader in)throws InterruptedException{
 		System.out.println("The room is small and empty except for a "
 		+"large computer across from the door. The computer is still on");
@@ -58,7 +58,7 @@ public class Stairwell implements Room{
 			return;
 			}
 		else if(response.equals("b")){
-				roomfour.stopSound();
+				//roomfour.stopSound();
 				System.out.println("");
 				Thread.sleep(1000);
 				System.out.println("You look at the monitor.");
